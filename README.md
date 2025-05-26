@@ -1,30 +1,37 @@
-# LoyaltyRewardsApp
-# Loyalty Rewards App (VibeRewards)
+# Loyalty Rewards App – VibeRewards
 
-An MVP loyalty-rewards platform for salons, barbershops, and eateries that tracks customer visits via phone number and unlocks a free reward every 5 visits.
+Minimal MVP for a loyalty program app targeting small businesses (salons, barbers, eateries) where owners can track customer visits and reward loyal clients after 5 visits.
 
----
+## 🔧 Tech Stack
+- React + Tailwind CSS
+- Supabase (Auth + DB)
+- Hosted on Netlify
 
-## 🛠️ Tech Stack
-- **Frontend:** Tailwind CSS
-- **Backend:** Supabase (Auth, Postgres database, REST API)
-- **Deploy:** Netlify / Vercel / GitHub Pages
-- **Other Tools:** Claude.ai for AI-driven promo messages
+## ⚙️ Features
+- Customer registration via phone number
+- Business account login
+- Business logs customer visits
+- Automatic reward after every 5 visits
+- Simple dashboard with visit counts
 
----
+## 🚀 Demo
+Live: [your-netlify-url]
 
-## 🚀 Features
-1. **Customer Registration** — Phone number only  
-2. **Business Auth** — Email/password signup & login  
-3. **Visit Logging** — Business owner logs visits to customers  
-4. **Visit Tracking** — Automatic tally & rewards calculation  
-5. **Dashboard** — View customer visits and earned rewards  
+## 📁 Folder Structure
+Includes:
+- `VisitLogger.jsx`
+- `Dashboard.jsx`
+- Supabase queries
+- Tailwind styling
 
----
+## 📊 Database Tables
+- businesses
+- customers
+- visits
 
-## 📦 Installation & Local Setup
-
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/YourUsername/loyalty-rewards-app.git
-   cd loyalty-rewards-app
+## 🛠️ Setup
+```bash
+git clone https://github.com/Dank1luu/loyalty-rewards-app
+cd loyalty-rewards-app
+npm install
+npm start
